@@ -1,0 +1,14 @@
+<h2 style="background-color:DodgerBlue;">Capybara name is <%=@capybara_name%></h2>
+<hr>
+<h2 style="background-color:Tomato;">Giraffe name is <%=@giraffe_name%></h2>
+
+<h2><%=@giraffe_name%>: 10HP</h2>
+
+<form method="get" action="/attack">
+    <button type="submit">Attack!</button>
+</form>
+
+<!--
+attack button. Create clickable button
+attack button diminishes hp points by 1
+make hp points flexible & an instance variable -->
